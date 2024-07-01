@@ -8,6 +8,17 @@ body {
   background-color: #f6f7f8;
   height: 100%;
 }
+
+::-webkit-scrollbar {
+  background-color: #f6f7f8;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #01f0d0;
+  border-radius: 30px;
+}
+
 :root {
   --lightpurp: #705aaa;
   --unnamed-color-cbc8d4: #cbc8d4;
