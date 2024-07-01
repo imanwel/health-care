@@ -42,7 +42,7 @@ body {
   --purplePink: #ffe6f1;
 }
 .dashboard {
-  /* width: 1580px; */
+  width: 100%;
   height: 100%;
   padding: 50px;
 }
@@ -172,7 +172,7 @@ ul li {
   height: 100%;
 } */
 .dpat {
-  width: 22%;
+  /* width: 22%; */
   text-align: center;
   /* border: 1px solid red; */
 }
