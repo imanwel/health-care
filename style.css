@@ -6,19 +6,18 @@
 }
 body {
   background-color: #f6f7f8;
-  height: 100vh;
-  overflow: hidden;
-  /* width: 1600px;
-  margin: 0 auto; */
+  /* height: 100vh; */
+  /* overflow: hidden; */
 }
 
 ::-webkit-scrollbar {
   background-color: #f6f7f8;
-  width: 5px;
+  /* border: 2px solid red; */
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #01f0d0;
+  background-color: var(--unnamed-color-072635);
   border-radius: 30px;
 }
 
@@ -28,7 +27,7 @@ body {
   --activestate_bg_2: #d8fcf7;
   --activestate_bg_1: #01f0d0;
   --unnamed-color-0bd984: #0bd984;
-  --unnamed-color-072635: #072635;
+  --unnamed-color-072635: #07263585;
   --unnamed-color-0c3d5d: #0c3d5d;
   --unnamed-color-084c77: #084c77;
   --unnamed-color-055a92: #055a92;
@@ -46,7 +45,7 @@ body {
 }
 .dashboard {
   width: 1600px;
-  height: 100vh;
+  height: 930px;
   padding: 25px;
   overflow: hidden;
   margin: 0 auto;
@@ -80,6 +79,9 @@ body {
 .pad10 {
   padding: 10px;
 }
+.pad15 {
+  padding: 15px;
+}
 .pad20 {
   padding: 20px;
 }
@@ -89,9 +91,9 @@ body {
 .mainpad {
   padding: 0 20px;
 }
-/* .t-bPad {
+.t-bPad {
   padding: 10px 0;
-} */
+}
 .marg {
   margin: 5px;
 }
@@ -133,9 +135,6 @@ a {
 a {
   color: #072635;
 }
-/* .icon {
-  height: 100%;
-} */
 .more {
   margin-left: 40px;
 }
@@ -143,11 +142,21 @@ a {
   width: 14px;
   height: 15px;
 }
-ul li {
+/* ul li {
   width: 100%;
   height: 100%;
   background-color: white;
-  /* padding: 0 auto; */
+  padding: 0 auto;
+} */
+a {
+  /* color: red; */
+  transition: 1s;
+  padding: 5px 20px;
+}
+a:hover {
+  background-color: var(--activestate_bg_1);
+  border-radius: 50px;
+  border: 2px solid black;
 }
 .techfit {
   width: 203px;
@@ -184,7 +193,7 @@ ul li {
   overflow: auto;
 } */
 .dpat {
-  height: 900px;
+  height: 800px;
   text-align: center;
   /* border: 1px solid red; */
 }
@@ -209,13 +218,13 @@ aside .icon {
 }
 .diagnosis {
   width: 50%;
-  /* height: 100%; */
+  height: 800px;
   /* background-color: white; */
   /* border-radius: 15px; */
 }
 .rightInfo {
   width: 22%;
-  /* height: 100%; */
+  height: 100%;
 }
 /* .position {
   position: relative;
@@ -242,7 +251,7 @@ aside .icon {
 .p-d {
   display: flex;
   align-items: center;
-  padding: 5px;
+  padding: 15px;
   justify-content: space-between;
   /* height: 100%; */
   /* text-align: left; */
@@ -259,6 +268,9 @@ aside .icon {
 .lastDiv_right {
   width: 80px;
 }
+.j-taylor {
+  height: 600px;
+}
 /* .jess-tayl {
   display: flex;
   flex-direction: column;
@@ -274,7 +286,9 @@ aside .icon {
   margin: 0 auto;
 }
 .labResult {
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px;
+  height: 170px;
+  padding: 10px;
 }
 .over-scroll {
   overflow: scroll;
